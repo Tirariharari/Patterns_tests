@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1587144953 source:w:\programs\tests\patterns\decorator_test\main.cpp
+	<iostream>
+	"classes.h"
+
+1587145083 w:\programs\tests\patterns\decorator_test\classes.h
+
