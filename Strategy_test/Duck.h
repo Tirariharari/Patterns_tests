@@ -11,9 +11,12 @@ protected:
 public:
     Duck () {}
     virtual void display() = 0;
-    virtual void performFly() = 0;
-    virtual void performQuack() = 0;
-    virtual void swim() = 0;
+    void performFly();
+    void performQuack();
+    virtual void swim();
+    void setFlyBehavior(FlyBehavior *fb);
+    void setQuackBehavior(QuackBehavior *cb);
+
 };
 
 void Duck::performFly()
@@ -30,5 +33,17 @@ void Duck::swim()
 {
     std::cout << "All ducks float, even decoys!" << std::endl;
 }
+
+ void Duck::setFlyBehavior(FlyBehavior *fb)
+ {
+     delete flyBehavior;
+     flyBehavior = fb;
+ }
+
+  void Duck::setQuackBehavior(QuackBehavior *cb)
+ {
+     delete quackBehavior;
+     quackBehavior = cb;
+ }
 
 #endif // DUCK_H

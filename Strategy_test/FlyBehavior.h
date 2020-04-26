@@ -21,4 +21,11 @@ class FlyNoWay : public FlyBehavior
     }
 };
 
+class FlyRocketPowered : public FlyBehavior
+{
+    void fly() override {
+        std::cout << "I'm flying with a rocket" << std::endl;
+    }
+};
+
 #endif // FLYBEHAVIOR_H
