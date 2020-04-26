@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1587903109 source:w:\programs\tests\patterns\strategy_test\main.cpp
+	<iostream>
+	"Duck.h"
+	"MallardDuck.h"
+
+1587904549 w:\programs\tests\patterns\strategy_test\duck.h
+	"FlyBehavior.h"
+	"QuackBehavior.h"
+
+1587903824 w:\programs\tests\patterns\strategy_test\flybehavior.h
+
+1587903832 w:\programs\tests\patterns\strategy_test\quackbehavior.h
+
+1587904592 w:\programs\tests\patterns\strategy_test\mallardduck.h
+	"Duck.h"
+	"FlyBehavior.h"
+	"QuackBehavior.h"
+
