@@ -32,6 +32,11 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="CurrentCondition.h" />
+		<Unit filename="HeatIndexDisplay.h" />
+		<Unit filename="Interfaces.h" />
+		<Unit filename="WeatherData.cpp" />
+		<Unit filename="WeatherData.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />
