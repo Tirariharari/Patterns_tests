@@ -1,8 +1,9 @@
 # depslib dependency file v1.0
-1588002220 source:w:\programs\tests\patterns\observer_test\main.cpp
+1588002767 source:w:\programs\tests\patterns\observer_test\main.cpp
 	<iostream>
 	"WeatherData.h"
 	"CurrentCondition.h"
+	"HeatIndexDisplay.h"
 
 1588002198 source:w:\programs\tests\patterns\observer_test\weatherdata.cpp
 	"WeatherData.h"
@@ -14,6 +15,9 @@
 
 1588002388 w:\programs\tests\patterns\observer_test\interfaces.h
 
-1588002389 w:\programs\tests\patterns\observer_test\currentcondition.h
+1588002786 w:\programs\tests\patterns\observer_test\currentcondition.h
+	"Interfaces.h"
+
+1588002793 w:\programs\tests\patterns\observer_test\heatindexdisplay.h
 	"Interfaces.h"
 

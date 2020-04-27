@@ -18,7 +18,7 @@ public:
         display();
     }
     void display(){
-        std::cout << "Current data : " << data << std::endl;
+        std::cout << "Current condition data : " << data << std::endl;
     }
 };
 
